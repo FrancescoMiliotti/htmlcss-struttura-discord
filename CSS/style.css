@@ -2,47 +2,106 @@
     box-sizing: border-box;
     padding: 0 auto;
     margin: 0 auto;
-    
+
 }
 
-body{
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: rgb(212, 212, 212);
+}
+
+body {
     background-color: #222222;
     color: white;
     font-family: sans-serif;
 }
 
-header{
+header {
     min-height: 100px;
     background-color: lightblue;
     display: flex;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     min-width: 600px;
     align-items: center;
-    
-      
+
+
 }
 
-.logo{
+.logo {
     background-color: lightcoral;
     min-height: 40%;
     width: 20%;
-    
+    border: dashed 2px
 }
 
-.link{
+.link {
     background-color: lightcoral;
     min-height: 40%;
     width: 60%;
     text-align: center;
-    
+    border: dashed 2px
 }
 
-.login{
+.login {
     background-color: lightcoral;
     min-height: 40%;
     width: 20%;
     text-align: right;
+    border: dashed 2px
 }
+
+.main-title {
+    background-color: navy;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.box-title {
+    height: 200px;
+    background-color: violet;
+    width: 400px;
+    border: dashed 1px black;
+}
+
+.boxed{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    
+    
+}
+.boxed-reverce{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    flex-direction: row-reverse;
+    
+    
+}
+
+.blu-box{
+
+    height: 200px;
+    background-color: rgb(31, 143, 255);
+    width: 60%;
+    border: dashed 1px black;
+
+}
+.pink-box{
+
+    height: 200px;
+    background-color: rgb(255, 191, 202);
+    width: 40%;
+    border: dashed 1px black;
+
+}
+
