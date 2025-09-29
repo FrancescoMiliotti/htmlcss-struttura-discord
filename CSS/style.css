@@ -2,10 +2,47 @@
     box-sizing: border-box;
     padding: 0 auto;
     margin: 0 auto;
-    font-family: sans-serif;
+    
 }
 
 body{
     background-color: #222222;
     color: white;
+    font-family: sans-serif;
+}
+
+header{
+    min-height: 100px;
+    background-color: lightblue;
+    display: flex;
+}
+
+.flex-container{
+    display: flex;
+    min-width: 600px;
+    align-items: center;
+    
+      
+}
+
+.logo{
+    background-color: lightcoral;
+    min-height: 40%;
+    width: 20%;
+    
+}
+
+.link{
+    background-color: lightcoral;
+    min-height: 40%;
+    width: 60%;
+    text-align: center;
+    
+}
+
+.login{
+    background-color: lightcoral;
+    min-height: 40%;
+    width: 20%;
+    text-align: right;
 }
