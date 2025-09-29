@@ -37,7 +37,7 @@ header {
     background-color: lightcoral;
     min-height: 40%;
     width: 20%;
-    border: dashed 2px
+    border: dashed 1px black;
 }
 
 .link {
@@ -45,7 +45,7 @@ header {
     min-height: 40%;
     width: 60%;
     text-align: center;
-    border: dashed 2px
+    border: dashed 1px black;
 }
 
 .login {
@@ -53,7 +53,7 @@ header {
     min-height: 40%;
     width: 20%;
     text-align: right;
-    border: dashed 2px
+    border: dashed 1px black;
 }
 
 .main-title {
@@ -104,4 +104,21 @@ header {
     border: dashed 1px black;
 
 }
+
+.green-box{
+
+    height: 400px;
+    background-color: rgb(34, 140, 34);
+    width: 100%;
+    border: dashed 1px black;
+
+}
+
+.maxbox{
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+}
+
 
